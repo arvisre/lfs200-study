@@ -11,13 +11,17 @@ One can note the Filesystem, type of Filesystem, the number of inodes, inodes us
 
 The following image shows how two filesystems differ when it comes to size and inodes.  
 <img width="599" height="189" alt="Screenshot From 2026-06-03 23-05-39" src="https://github.com/user-attachments/assets/991b9932-5b0f-4f74-9cdd-4b91ee7a4bc1" />  
-The ext4 partition is 100 Gigabytes in size and has way too less inodes than an xfs partition that is 47 Gigabytes in size.
+The ext4 partition is 100 Gigabytes in size and has way too less inodes than an xfs partition that is 47 Gigabytes in size. This image shows how ext4 and xfs filesystems handle inodes differently. With ext4 partitions the inode table is pre-allocated during the time of partition and in modern filesystems such as the xfs and btrfs the inodes are dynamically allocated.
+
+Consider the following image:  
+<img width="607" height="193" alt="Screenshot From 2026-06-03 23-21-18" src="https://github.com/user-attachments/assets/e3432844-1e15-497a-a038-f5f70ec227e1" />  
+The 100GB ext4 partition with 5.9 Million inodes has used 11GB of space and 205k inodes, whereas a 652GB xfs partition with 327 Million inodes has only used 7 inodes.  
+
+The above scenario raises the following two conditions:
 
 
+**Condition 1** - If every file is assigned an inode number, then there is a possibility that a few large files can consume only a few inodes but may consume the entire partition.  
+**Condition 2** - If every file is assigned an inode number, then there is a possibility that millions of small files can consume all the inodes but may not consume the entire partition.
 
-
-
-
-When a filesystem is created on a partition, the entire partition is broken down to Blocks. With ext4 partitions the inode table is pre-allocated during the time of partition.
-
+It is important to note that **_every inode is 256 bytes in size_**
 
