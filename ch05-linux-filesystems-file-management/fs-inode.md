@@ -26,6 +26,7 @@ The above scenario raises the following two conditions:
 
 **Condition 1** - If every file is assigned an inode number, then there is a possibility that a few large files can consume only a few inodes but may consume the entire partition.  
 **Condition 2** - If every file is assigned an inode number, then there is a possibility that millions of small files can consume all the inodes but may not consume the entire partition.  <br/>
+
 The second condition is more challenging because a user may see a "disk full" error but the command **df -h** may show plenty of free space. Only when we check the inode usage we get to see the real problem.  <br/>
 
 It is important to note that **_every inode is 256 bytes in size_**
