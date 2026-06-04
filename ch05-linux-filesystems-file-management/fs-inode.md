@@ -10,6 +10,7 @@ From the above image, we note the inode number **1573443**, the IO Block is 4096
 To find filesystem information, one can use the command **df** with the -h (human readable) -i (index node) and -T (type) options. See example below: 
 <img width="1114" height="420" alt="Screenshot From 2026-06-03 23-00-05" src="https://github.com/user-attachments/assets/d9990cd8-cf05-48c8-bc6f-445cb60a601d" />  
 One can note the Filesystem, type of Filesystem, the number of inodes, inodes users, inodes free, the size of each partition, and the mount point.  
+Also note that the **/boot/efi** partition has 0 inodes because there is no concept of inodes in FAT32 filesystem.
 
 
 The following image shows how two filesystems differ when it comes to size and inodes.  
