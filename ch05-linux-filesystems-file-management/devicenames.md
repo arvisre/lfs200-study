@@ -1,1 +1,13 @@
-
+#  Linux Device Names  </br>  
+In Linux the devices are found under the /dev directory. Devices are categorised based on the Kernel module (device driver).</br>  
+For example SCSI and SATA device names begin with "sd" while the modern NVME SSDs have names that begin with "nvme".</br>  
+I have created SCSI and SATA drives for my Ubuntu VM as shown below.</br>  
+<img width="1182" height="417" alt="Screenshot From 2026-06-06 14-54-36" src="https://github.com/user-attachments/assets/f2f1a10b-92d8-4776-bc38-0fc4a7c22a19" />  </br>  
+When the command **lsblk** is executed in the Ubuntu VM the list of **Block** devices are displayed.</br>  
+<img width="697" height="604" alt="Screenshot From 2026-06-06 14-58-10" src="https://github.com/user-attachments/assets/412ddcac-4c9d-4e73-b5f0-fa93c42d6ed0" /> </br>  
+From the image above, we find the two drives **sda** and **sdb**. Each device has a **MAJOR:MINOR** number. The Kernel Module (device driver) defines the MAJOR number while the MINOR number points to the instance of the device. </br>  
+**sda      8:0    0     2G  0 disk** </br>  
+**sdb      8:16   0     2G  0 disk** </br>  
+The MAJOR number for sda and sdb are 8 and the MINOR numbers are 0-15 for sda and 16-31 for sdb. Each of these devices sda and sdb can have 16 partitions (instances). sda 8:0 refers to the whole disk whereas sda 8:1 refers to first partition and sda 8:15 refers to the last partition of that disk. </br>  
+Similarly, sdb 8:16 refers to the whole disk, sdb 8:17 refers to the first partition and sdb 8:31 to the last partition in sdb. This is shown in the following image: </br>  
+<img width="699" height="691" alt="Screenshot From 2026-06-06 15-22-04" src="https://github.com/user-attachments/assets/485226e6-bce6-451f-883d-35010bd35744" />  
