@@ -13,4 +13,7 @@ Similarly, sdb 8:16 refers to the whole disk, sdb 8:17 refers to the first parti
 Using the **gparted** graphical utility, I have initialised the disks **sda** and **sdb** and created two partitions in each of them. The following image shows the concept of MAJOR:MINOR numbers and how Linux names devices. </br>  
 <img width="699" height="691" alt="Screenshot From 2026-06-06 15-22-04" src="https://github.com/user-attachments/assets/485226e6-bce6-451f-883d-35010bd35744" /> </br>  
 As mentioned earlier, the disks and their partitions are listed in the **/dev** directory. Using the **ls** command we can list those devices - as shown below: </br>  
-<img width="646" height="235" alt="Screenshot From 2026-06-06 15-28-03" src="https://github.com/user-attachments/assets/89ee43d9-dfce-4912-a515-e10550511c81" />
+<img width="646" height="235" alt="Screenshot From 2026-06-06 15-28-03" src="https://github.com/user-attachments/assets/89ee43d9-dfce-4912-a515-e10550511c81" /> </br>  
+Likewise, using the **find** command, I have listed the **nvme** devices connected to the Host Computer that runs Fedora Workstation (image below) </br>  
+<img width="736" height="434" alt="Screenshot From 2026-06-06 15-33-27" src="https://github.com/user-attachments/assets/2d71497f-6b76-4788-a779-47eac32994ca" />
+
