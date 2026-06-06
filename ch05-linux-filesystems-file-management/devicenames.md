@@ -9,5 +9,6 @@ From the image above, we find the two drives **sda** and **sdb**. Each device ha
 **sda      8:0    0     2G  0 disk** </br>  
 **sdb      8:16   0     2G  0 disk** </br>  
 The MAJOR number for sda and sdb are 8 and the MINOR numbers are 0-15 for sda and 16-31 for sdb. Each of these devices sda and sdb can have 16 partitions (instances). sda 8:0 refers to the whole disk whereas sda 8:1 refers to first partition and sda 8:15 refers to the last partition of that disk. </br>  
-Similarly, sdb 8:16 refers to the whole disk, sdb 8:17 refers to the first partition and sdb 8:31 to the last partition in sdb. This is shown in the following image: </br>  
+Similarly, sdb 8:16 refers to the whole disk, sdb 8:17 refers to the first partition and sdb 8:31 to the last partition in sdb. </br>  
+Using the **gparted** graphical utility, I have initialised the disks **sda** and **sdb** and created two partitions in each of them. The following image shows the concept of MAJOR:MINOR numbers and how Linux names devices. </br>  
 <img width="699" height="691" alt="Screenshot From 2026-06-06 15-22-04" src="https://github.com/user-attachments/assets/485226e6-bce6-451f-883d-35010bd35744" />  
