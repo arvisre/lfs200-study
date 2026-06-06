@@ -1,6 +1,6 @@
 #  Linux Device Names  </br>  
 In Linux the devices are found under the /dev directory. Devices are categorised based on the Kernel module (device driver).</br>  
-For example SCSI and SATA device names begin with "sd" while the modern NVME SSDs have names that begin with "nvme".</br>  
+For example SCSI and SATA device names begin with "**sd**" while the modern NVME SSDs have names that begin with "nvme".</br>  
 I have created SCSI and SATA drives for my Ubuntu VM as shown below.</br>  
 <img width="1182" height="417" alt="Screenshot From 2026-06-06 14-54-36" src="https://github.com/user-attachments/assets/f2f1a10b-92d8-4776-bc38-0fc4a7c22a19" />  </br>  
 When the command **lsblk** is executed in the Ubuntu VM the list of **Block** devices are displayed.</br>  
