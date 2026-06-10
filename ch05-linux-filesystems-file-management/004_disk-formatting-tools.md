@@ -40,7 +40,7 @@ In this exercise, I am going to use the **fdisk** tool, to delete existing parti
 ## Verifying that 2 partitions have been created and 1 partition has been deleted </br>  
 <img width="524" height="623" alt="Screenshot From 2026-06-10 19-17-18" src="https://github.com/user-attachments/assets/57b57557-1c01-43b2-8d16-59b5cb0b5ef6" /> </br>  
 
-Using the **fdisk** utility, we have initialised **/dev/sdb** as GPT disk, created two partitions in it, and we have deleted one partition from **/dev/sda**  
+Using the **fdisk** utility, we have initialised **/dev/sdb** as GPT disk, created two partitions in it, and we have deleted one partition from **/dev/sda**.  
 
 
 
