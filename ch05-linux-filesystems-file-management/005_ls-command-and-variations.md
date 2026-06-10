@@ -15,5 +15,5 @@ The image below shows the usage of the above commands </br>
 <img width="599" height="992" alt="Screenshot From 2026-06-10 22-44-05" src="https://github.com/user-attachments/assets/f737edff-811c-451a-990a-e41aee125e2d" /> </br>  
 
 
-### **ls -lR** - the **-R** (uppercase) option displays the contents of the directories in a recursive manner. </br>  
+### **ls -lR** - the **-R** (uppercase) option displays the contents of each of the sub-directories recursively. </br>  
 <img width="489" height="537" alt="Screenshot From 2026-06-10 22-47-51" src="https://github.com/user-attachments/assets/4c4faed5-95c7-4946-9703-044b91d9ee27" /> </br>  
