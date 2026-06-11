@@ -10,7 +10,9 @@ The image below shows the usage of the above commands </br>
 ### **ls -li** - the **-i** options displays the **inode** number for the contents of a directory. </br>  
 ### **ls -lt** - the **-t** option sorts contents of a directory by time, with the newest first. </br>  
 ### **ls -ltr** - the **-r (lowercase)** option sorts contents in the reverse order. So if **-t** sorts by newest first, **-tr** displays newest at the last. </br>  
-### **ls -lh** - the **-h** option displays the size of the contents in human-readable format: that is K(Kilobytes), M(Megabytes) and so on. </br>  
+### **ls -lh** - the **-h** option displays the size (in this case) of the contents in human-readable format: that is K(Kilobytes), M(Megabytes) and so on. </br>  
+If the **-h** option was used with the command **df -hi** it would output the number of **inodes** in a human-readable format. So the context differs, function is the same. </br>  
+
 The image below shows the usage of the above commands </br>  
 <img width="599" height="992" alt="Screenshot From 2026-06-10 22-44-05" src="https://github.com/user-attachments/assets/f737edff-811c-451a-990a-e41aee125e2d" /> </br>  
 
