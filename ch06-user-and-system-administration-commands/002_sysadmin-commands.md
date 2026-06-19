@@ -25,8 +25,8 @@ The command **sudo zypper update** provided detailed information about packages 
 <img width="1072" height="325" alt="image" src="https://github.com/user-attachments/assets/b5383162-0bc1-4080-a912-d66283dfb76c" /> </br>  
 Pressing **y** will continue the process of downloading the packages and updating the current system.  
 <img width="845" height="308" alt="image" src="https://github.com/user-attachments/assets/1621e73f-89c4-4102-82e0-8aae03785a19" /> </br>  
-
-
+Restarting the computer will apply the updates that were installed.  
+<img width="1564" height="325" alt="image" src="https://github.com/user-attachments/assets/ea74a735-a0aa-48d8-b9a0-d6b2185372ce" /> </br>  
 
 
 
