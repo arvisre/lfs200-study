@@ -10,7 +10,7 @@ Selecting the **GNOME Desktop Environment** auto-selects some additional desktop
 <img width="1321" height="877" alt="Screenshot From 2026-06-19 10-24-49" src="https://github.com/user-attachments/assets/40b4e98a-d967-4890-9f1a-b058fcb13163" /> </br>  
 The installer also provides options to install certain **Server Roles / Functions**, as shown below:  
 <img width="1321" height="877" alt="Screenshot From 2026-06-19 10-25-35" src="https://github.com/user-attachments/assets/a7181a20-fc41-4ffa-8e36-38f90cfb8d33" /> </br>  
-Unlike the default **ext4** filesystem in Ubuntu and the **xfs** filesystem in Rocky Linux, **btrfs** is the default filesystem in openSUSE.
+Unlike the default **ext4** filesystem in Ubuntu and the **xfs** filesystem in Rocky Linux, **btrfs** is the default filesystem for the **/** partition in openSUSE.
 <img width="1059" height="728" alt="Screenshot From 2026-06-19 10-21-15" src="https://github.com/user-attachments/assets/a80ef131-cfa2-4975-99e4-2bd1cda36cab" /> </br>  
 Let's use the **zypper** command to update the system.  
 
