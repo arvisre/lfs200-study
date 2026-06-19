@@ -34,14 +34,5 @@ exists for SUSE-based systems. It appears that in SUSE-based systems the command
 
 ## Searching and installing a package: </br>  
 Further, I am going use the **search** option to find if the package **gnome-tweaks** exists and try to install it.  
-<img width="836" height="308" alt="image" src="https://github.com/user-attachments/assets/271c0893-fbc6-431f-9322-16bdbd68e392" /> </br>  
-
-
-
-
-
-
-
-
-
+<img width="1077" height="545" alt="image" src="https://github.com/user-attachments/assets/57925a56-0288-4fa2-96ed-9cba6b64ee96" />
 
