@@ -30,7 +30,12 @@ Restarting the computer will apply the updates that were installed.
 In RedHat-based systems the command **sudo dnf check-update** refreshes the repositories and provides a list of available updates. I was wondering if a similar command
 exists for SUSE-based systems. It appears that in SUSE-based systems the commands **sudo zypper refresh** and **sudo zypper list-updates** do the similar functions respectively.  
 <img width="998" height="747" alt="image" src="https://github.com/user-attachments/assets/9de72d6f-0606-475f-bb1a-ea03504761f1" /> </br>  
-<img width="661" height="202" alt="image" src="https://github.com/user-attachments/assets/c38bac44-0f1e-4cc8-9c60-8cc909d98e65" />  
+<img width="661" height="202" alt="image" src="https://github.com/user-attachments/assets/c38bac44-0f1e-4cc8-9c60-8cc909d98e65" /> </br>  
+
+## Searching and installing a package: </br>  
+Further, I am going use the **search** option to find if the package **gnome-tweaks** exists and try to install it.  
+<img width="836" height="308" alt="image" src="https://github.com/user-attachments/assets/271c0893-fbc6-431f-9322-16bdbd68e392" /> </br>  
+
 
 
 
