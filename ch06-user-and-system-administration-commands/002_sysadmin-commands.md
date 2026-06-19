@@ -34,5 +34,9 @@ exists for SUSE-based systems. It appears that in SUSE-based systems the command
 
 ## Searching and installing a package: </br>  
 Further, I am going use the **search** option to find if the package **gnome-tweaks** exists and try to install it.  
-<img width="1077" height="545" alt="image" src="https://github.com/user-attachments/assets/57925a56-0288-4fa2-96ed-9cba6b64ee96" />
+<img width="1077" height="545" alt="image" src="https://github.com/user-attachments/assets/57925a56-0288-4fa2-96ed-9cba6b64ee96" /> </br>  
+I find that the package **gnome-tweaks** is already installed. Hence I am going to find it in the list of all packages. </br>  
+Pressing **TAB** after typing the command **sudo zypper package** gives further options and I am going to choose the option **--installed only**
+<img width="1304" height="523" alt="image" src="https://github.com/user-attachments/assets/04b2db82-5e60-4cd8-87fc-5b004d15d286" />
+
 
