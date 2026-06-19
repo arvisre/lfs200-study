@@ -18,7 +18,14 @@ added to the group **wheel** and consequently will have permissions to run the *
 Then I run the command **zypper --help** to display the list of command options - as shown in the image below:  
 <img width="1141" height="947" alt="image" src="https://github.com/user-attachments/assets/d1ff6d7a-0309-4ea0-b612-8e7e43445495" /> </br>  
 The option **--help** display a long list of options categorised under various tasks, and to being with, I am going to focus on the **Update Management** category.  
-<img width="890" height="952" alt="image" src="https://github.com/user-attachments/assets/7393c4df-7e19-4598-9176-637977fee26e" />
+<img width="890" height="952" alt="image" src="https://github.com/user-attachments/assets/7393c4df-7e19-4598-9176-637977fee26e" /> </br>  
+
+The command **sudo zypper update** provided detailed information about packages that will be upgraded, that will not be upgraded, and those that require a reboot - as shown in the images below:
+<img width="943" height="288" alt="image" src="https://github.com/user-attachments/assets/6d3bce87-330d-44bd-bef5-8d32c25b1935" /> </br>  
+<img width="1072" height="325" alt="image" src="https://github.com/user-attachments/assets/b5383162-0bc1-4080-a912-d66283dfb76c" /> </br>  
+<img width="845" height="308" alt="image" src="https://github.com/user-attachments/assets/1621e73f-89c4-4102-82e0-8aae03785a19" /> </br>  
+
+
 
 
 
