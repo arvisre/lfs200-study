@@ -23,6 +23,7 @@ The option **--help** display a long list of options categorised under various t
 The command **sudo zypper update** provided detailed information about packages that will be upgraded, that will not be upgraded, and those that require a reboot - as shown in the images below:
 <img width="943" height="288" alt="image" src="https://github.com/user-attachments/assets/6d3bce87-330d-44bd-bef5-8d32c25b1935" /> </br>  
 <img width="1072" height="325" alt="image" src="https://github.com/user-attachments/assets/b5383162-0bc1-4080-a912-d66283dfb76c" /> </br>  
+Pressing **y** will continue the process of downloading the packages and updating the current system.  
 <img width="845" height="308" alt="image" src="https://github.com/user-attachments/assets/1621e73f-89c4-4102-82e0-8aae03785a19" /> </br>  
 
 
