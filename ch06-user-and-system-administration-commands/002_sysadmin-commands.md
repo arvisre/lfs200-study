@@ -16,7 +16,10 @@ Let's use the **zypper** command to update the system.
 One of the first commands to execute is the **id** command - to check whether my user id has the permissions to run the command **sudo**. By default my user id has been
 added to the group **wheel** and consequently will have permissions to run the **sudo** command. </br>  
 Then I run the command **zypper --help** to display the list of command options - as shown in the image below:  
-<img width="1141" height="947" alt="image" src="https://github.com/user-attachments/assets/d1ff6d7a-0309-4ea0-b612-8e7e43445495" /> </br>
+<img width="1141" height="947" alt="image" src="https://github.com/user-attachments/assets/d1ff6d7a-0309-4ea0-b612-8e7e43445495" /> </br>  
+The option **--help** display a long list of options categorised under various tasks, and to being with, I am going to focus on the **Update Management** category.  
+<img width="890" height="952" alt="image" src="https://github.com/user-attachments/assets/7393c4df-7e19-4598-9176-637977fee26e" />
+
 
 
 
