@@ -27,6 +27,12 @@ Pressing **y** will continue the process of downloading the packages and updatin
 <img width="845" height="308" alt="image" src="https://github.com/user-attachments/assets/1621e73f-89c4-4102-82e0-8aae03785a19" /> </br>  
 Restarting the computer will apply the updates that were installed.  
 <img width="1564" height="325" alt="image" src="https://github.com/user-attachments/assets/ea74a735-a0aa-48d8-b9a0-d6b2185372ce" /> </br>  
+In RedHat-based systems the command **sudo dnf check-update** refreshes the repositories and provides a list of available updates. I was wondering if a similar command
+exists for SUSE-based systems. It appears that in SUSE-based systems the commands **sudo zypper refresh** and **sudo zypper list-updates** do the similar functions respectively.  
+<img width="998" height="747" alt="image" src="https://github.com/user-attachments/assets/9de72d6f-0606-475f-bb1a-ea03504761f1" /> </br>  
+<img width="661" height="202" alt="image" src="https://github.com/user-attachments/assets/c38bac44-0f1e-4cc8-9c60-8cc909d98e65" />  
+
+
 
 
 
