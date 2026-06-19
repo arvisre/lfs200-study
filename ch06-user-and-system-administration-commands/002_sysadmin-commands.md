@@ -14,7 +14,8 @@ Unlike the default **ext4** filesystem in Ubuntu and the **xfs** filesystem in R
 <img width="1059" height="728" alt="Screenshot From 2026-06-19 10-21-15" src="https://github.com/user-attachments/assets/a80ef131-cfa2-4975-99e4-2bd1cda36cab" /> </br>  
 Let's use the **zypper** command to update the system.  
 One of the first commands to execute is the **id** command - to check whether my user id has the permissions to run the command **sudo**. By default my user id has been
-added to the group **wheel** and consequently will have permissions to run the **sudo** command - as shown in the image below:  
+added to the group **wheel** and consequently will have permissions to run the **sudo** command. </br>  
+Then I run the command **zypper --help** to display the list of command options - as shown in the image below:  
 <img width="1141" height="947" alt="image" src="https://github.com/user-attachments/assets/d1ff6d7a-0309-4ea0-b612-8e7e43445495" /> </br>
 
 
