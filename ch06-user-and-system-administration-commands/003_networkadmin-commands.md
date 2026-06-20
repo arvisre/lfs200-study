@@ -2,7 +2,7 @@
 This chapter gives an introduction to the commands:- **dig, ip, netstat, ping, traceroute**. </br>  
 Working in IT Support for Microsoft Systems, I have used the ping, traceroute, and nslookup commands for troubleshooting network related problems. 
 
-## ip command </br>  
+## ip command / utility </br>  
 The command **ip** consists of **objects** and these **objects** have **commands** to carry out specific tasks. </br>  
 For example, when we type the command **ip** in the terminal and press the TAB twice, we get to see the **objects**. Once we have chosen an **object**, pressing the TAB twice
 lists the **commands** that work on these **objects**. Let's look at the image below:  
@@ -13,4 +13,5 @@ Similarly, as shown below, the **ip** utility with the **object** **route** and 
 <img width="1267" height="277" alt="image" src="https://github.com/user-attachments/assets/44e95052-186f-40fd-b7ea-1bc57fa64239" />  
 This command is equivalent to the **route print** command used in Windows environments. </br>  
 
+## dig command / utility </br>  
 
