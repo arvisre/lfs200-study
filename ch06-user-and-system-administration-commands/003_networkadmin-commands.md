@@ -12,7 +12,7 @@ I have chosen the **command** **show** and entering this command lists the **Net
 Similarly, as shown below, the **ip** utility with the **object** **route** and with the **command** **list** displays the **routing** information.  
 <img width="1267" height="277" alt="image" src="https://github.com/user-attachments/assets/44e95052-186f-40fd-b7ea-1bc57fa64239" />  
 This command is equivalent to the **route print** command used in Windows environments. </br>  
-Additionally - the ip command has replaced the ifconfig command. While my Fedora Workstation has both ip and ifconfig commands, my Ubuntu VM does NOT have ifconfig by default. </br>  
+Additionally - the **ip** command has replaced the **ifconfig** command. While my Fedora Workstation has both **ip** and **ifconfig** commands, my Ubuntu VM does NOT have **ifconfig** by default. </br>  
 
 ## dig command / utility </br>  
 
