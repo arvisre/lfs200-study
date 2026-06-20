@@ -37,7 +37,8 @@ Whenever there is a need for Name Resolution, say **wwwdotalmalinuxdotorg**, the
 <img width="551" height="141" alt="image" src="https://github.com/user-attachments/assets/67d89935-7b51-4702-87fc-21ec7ff622d4" /> </br>  
 6. As shown in the image above, the **nameserver** for this Rocky Linux VM is **192.168.122.1**. Hence, name resolution queries are forwarded to this address.  
 7. Step 6 can be verified by using the **dig** command - image below:  
-8. <img width="739" height="518" alt="Screenshot From 2026-06-20 23-37-05" src="https://github.com/user-attachments/assets/2fc2df06-0e58-4de3-9029-6a7ed534af89" /> </br>  
+<img width="739" height="518" alt="Screenshot From 2026-06-20 23-37-05" src="https://github.com/user-attachments/assets/2fc2df06-0e58-4de3-9029-6a7ed534af89" /> </br>  
+8. Note that in the image above, the **SERVER** has the address **192.168.122.1** for name resolution.  
 9. In some distributions such as Ubuntu and Fedora, there is a daemon (service) named **systemd-resolved** that handles **name resolution** and **caching**. Although there can be differences, the **systemd-resolved** daemon (service) sounds similar to the **DNS Client** service that runs in Windows computers.  
 10. Images below show the status of the **systemd-resolved** daemon in Fedora and Ubuntu computers. I could not find this daemon running in my Rocky Linux VM.  
 <img width="1406" height="569" alt="Screenshot From 2026-06-20 23-46-39" src="https://github.com/user-attachments/assets/1fc30492-3247-4b51-88c6-3e71ae728c88" /> </br>  
