@@ -26,6 +26,19 @@ In the above example, I have specified "**@1.1.1.1**" as the **SERVER** I want t
 In the above example, I have used the **-x** option to query the **domain name** for the **ip address** </br>  
 
 ## Basic explanation of how Name Resolution works in a Linux system: </br>  
+Whenever there is a need for Name Resolution, say www.almalinux.org, the following steps occur:  
+1. The file **/etc/nsswitch.conf** is accessed and the entry for **hosts** is read. As shown in the image below, the entries for **hosts:** are **files** **dns** **myhostname**.
+<img width="841" height="541" alt="Screenshot From 2026-06-20 23-22-53" src="https://github.com/user-attachments/assets/2c719e56-464c-44ab-8f69-c7ef07a611be" />  
+2. In that order, first the **files** as in the **hosts** file is checked. The **hosts** file resides at **/etc/hosts**.  
+<img width="779" height="283" alt="Screenshot From 2026-06-20 23-26-08" src="https://github.com/user-attachments/assets/262bb48e-f2f4-4fde-9deb-1caa9ba9a581" />
+3. As shown in the image above, the **hosts** file has only two entries - the IPV4 and IPV6 **loopback address** for the **localhost**.
+4. Since there is no entry for **www.almalinux.org** in the **hosts** file, the next step is to fallback to **dns**.
+5. The answer for "which dns server to ask?" lies in the file **/etc/resolv.conf**. This file has the **nameserver** entry - as shown in image below:
+<img width="551" height="141" alt="image" src="https://github.com/user-attachments/assets/67d89935-7b51-4702-87fc-21ec7ff622d4" />
+6. As shown in the image above, the **nameserver** for this Rocky Linux VM is **192.168.122.1**. Hence, name resolution queries are forwarded to this address.  
+
+
+
 
 
 
