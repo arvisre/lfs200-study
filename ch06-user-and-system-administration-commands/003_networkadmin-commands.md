@@ -15,4 +15,5 @@ This command is equivalent to the **route print** command used in Windows enviro
 Additionally - the **ip** command has replaced the **ifconfig** command. While my Fedora Workstation has both **ip** and **ifconfig** commands, my Ubuntu VM does NOT have **ifconfig** by default. </br>  
 
 ## dig command / utility </br>  
+"**nslookup**" was one of the commands I used in Windows environments to verify name resolution. Although, **nslookup** can still be used in Linux computers, the command has been replaced by **dig**. </br>  
 
