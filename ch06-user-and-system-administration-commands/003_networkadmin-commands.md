@@ -25,4 +25,7 @@ In the above example, I have specified "**@1.1.1.1**" as the **SERVER** I want t
 <img width="782" height="539" alt="Screenshot From 2026-06-20 22-40-25" src="https://github.com/user-attachments/assets/3074cad8-f044-4c82-b3a3-a067e1a99eae" />  
 In the above example, I have used the **-x** option to query the **domain name** for the **ip address** </br>  
 
+## Basic explanation of how Name Resolution works in a Linux system: </br>  
+
+
 
