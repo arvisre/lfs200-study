@@ -13,4 +13,5 @@ As shown in the image above, the **login shell** for this user is **/bin/bash**.
 The default values that may be applied can be found in the file **/etc/default/useradd**. Image below: </br>  
 <img width="561" height="283" alt="Screenshot From 2026-06-24 16-32-02" src="https://github.com/user-attachments/assets/8b1b67aa-f908-4f66-b00e-b1f21890a53e" /> </br>  
 
-
+## Setting password for the new user account </br>  
+I have to set a password for the user account that I have created. Setting password for other user's account require elevated privileges.
