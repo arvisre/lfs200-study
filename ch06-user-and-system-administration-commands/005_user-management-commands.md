@@ -20,6 +20,12 @@ Passwords are stored in a secure manner in the **/etc/shadow** file. The followi
 <img width="887" height="270" alt="before passwd" src="https://github.com/user-attachments/assets/19afef2d-50fe-4cfc-91d5-a9309a7bd83f" /> </br>  
 <img width="580" height="180" alt="passwd change" src="https://github.com/user-attachments/assets/38cb32d2-0d71-4d53-96bf-26f75ed593ae" /> </br>  
 <img width="946" height="180" alt="after passwd" src="https://github.com/user-attachments/assets/1a75de7b-d2bc-4935-9fe2-ec429f39da92" /> </br>  
-I can see that before I set the password for **tech01** the entry had an exclamation symbol (!) and after setting the password I can see a long string of alphanumerals and symbols. </br>
-
+I can see that before I set the password for **tech01** the entry had an exclamation symbol (!) and after setting the password I can see a long string of alphanumerals and symbols. </br>  
 Although I have set the initial password for **tech01**, I can use the **--expire** option with the passwd command to expire the password and force the user to change password at next login. </br>  
+
+## Modifying an user account </br>  
+The command **usermod** can be used with elevated privileges to modify the properties of an user account. </br>  
+For the sake of demonstration, I am going to add the user account **tech01** to the **wheel** group. The command **sudo usermod -a -G wheel tech01** will **"append""** the group **wheel** to the list of groups the user belongs to. </br>  
+The command **id <username>** provides the list of groups the user belongs to: </br>  
+<img width="604" height="137" alt="Screenshot From 2026-06-27 19-03-39" src="https://github.com/user-attachments/assets/5a8c1d66-6170-4bb4-9740-819f959e2306" /> </br>
+
