@@ -27,10 +27,15 @@ Although I have set the initial password for **tech01**, I can use the **--expir
 The command **usermod** can be used with elevated privileges to modify the properties of an user account. </br>  
 For the sake of demonstration, I am going to add the user account **tech01** to the **wheel** group. To begin with, the command **id <username>** provides the list of groups the user belongs to. Then, using the command **sudo usermod -a -G wheel tech01** I will **"append""** the group **wheel** to the list of groups **tech01** belongs to. </br>  
 <img width="754" height="228" alt="Screenshot From 2026-06-27 19-06-02" src="https://github.com/user-attachments/assets/4ae4614f-4cee-483a-8451-3120f50226a2" /> </br>  
-While the same **usermod** command can be used to remove the user **tech01** from the **wheel** group, the command **gpasswd** make it easier. For example, in case if the user **tech01** belonged to 4 groups, GroupA, GroupB, GroupC, and GroupD. Now, I have to remove him from GroupC, I still have to mention rest of the 3 groups in the usermod command. </br>  
+While the same **usermod** command can be used to remove the user **tech01** from the **wheel** group, the command **gpasswd** make it easier. For example, in case if the user **tech01** belonged to 4 groups, **GroupA, GroupB, GroupC, and GroupD**. Now, I have to remove him from **GroupC**, I still have to mention rest of the 3 groups in the usermod command. </br>  
 In order to avoid any errors, instead of using the **usermod** command, the **gpasswd** command can be used. </br>  
 The command **sudo gpasswd tech01 wheel** will remove the user **tech01** from **wheel**. </br>  
-<img width="656" height="229" alt="Screenshot From 2026-06-27 19-15-50" src="https://github.com/user-attachments/assets/6349b5fb-b06a-4673-8496-1dc10501adbf" />  
+<img width="656" height="229" alt="Screenshot From 2026-06-27 19-15-50" src="https://github.com/user-attachments/assets/6349b5fb-b06a-4673-8496-1dc10501adbf" /> </br>    
+
+## Deleting an user account </br>
+Deleting an user account can be accomplished using the **userdel** command. **sudo userdel <username>** is the simplest usage of the command. However, if I require that the **home directory** of the user be removed, I can use the **-r** switch. **sudo userdel -r <username>**. </br>  
+<img width="656" height="211" alt="Screenshot From 2026-06-27 19-19-39" src="https://github.com/user-attachments/assets/366435bf-5578-4895-b7d2-22e9d5dfa68e" />  
+
 
 
 
