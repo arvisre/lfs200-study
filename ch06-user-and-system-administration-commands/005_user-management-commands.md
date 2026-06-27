@@ -14,4 +14,12 @@ The default values that may be applied can be found in the file **/etc/default/u
 <img width="561" height="283" alt="Screenshot From 2026-06-24 16-32-02" src="https://github.com/user-attachments/assets/8b1b67aa-f908-4f66-b00e-b1f21890a53e" /> </br>  
 
 ## Setting password for the new user account </br>  
-I have to set a password for the user account that I have created. Setting password for other user's account require elevated privileges.
+I have to set a password for the user account that I have created. Setting password for other user's account require elevated privileges. </br>  
+Using the command **passwd** I have set the initial password for the user account **tech01**. </br>  
+Passwords are stored in a secure manner in the **/etc/shadow** file. The following images show the entries for user **tech01** in the **shadow** file before and after setting the password. </br>  
+<img width="887" height="270" alt="before passwd" src="https://github.com/user-attachments/assets/19afef2d-50fe-4cfc-91d5-a9309a7bd83f" /> </br>  
+<img width="580" height="180" alt="passwd change" src="https://github.com/user-attachments/assets/38cb32d2-0d71-4d53-96bf-26f75ed593ae" /> </br>  
+<img width="946" height="180" alt="after passwd" src="https://github.com/user-attachments/assets/1a75de7b-d2bc-4935-9fe2-ec429f39da92" /> </br>  
+I can see that before I set the password for **tech01** the entry had an exclamation symbol (!) and after setting the password I can see a long string of alphanumerals and symbols. </br>
+
+Although I have set the initial password for **tech01**, I can use the **--expire** option with the passwd command to expire the password and force the user to change password at next login. </br>  
