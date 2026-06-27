@@ -25,7 +25,8 @@ Although I have set the initial password for **tech01**, I can use the **--expir
 
 ## Modifying an user account </br>  
 The command **usermod** can be used with elevated privileges to modify the properties of an user account. </br>  
-For the sake of demonstration, I am going to add the user account **tech01** to the **wheel** group. The command **sudo usermod -a -G wheel tech01** will **"append""** the group **wheel** to the list of groups the user belongs to. </br>  
-The command **id <username>** provides the list of groups the user belongs to: </br>  
-<img width="604" height="137" alt="Screenshot From 2026-06-27 19-03-39" src="https://github.com/user-attachments/assets/5a8c1d66-6170-4bb4-9740-819f959e2306" /> </br>
+For the sake of demonstration, I am going to add the user account **tech01** to the **wheel** group. To begin with, the command **id <username>** provides the list of groups the user belongs to. Then, using the command **sudo usermod -a -G wheel tech01** I will **"append""** the group **wheel** to the list of groups **tech01** belongs to. </br>  
+<img width="754" height="228" alt="Screenshot From 2026-06-27 19-06-02" src="https://github.com/user-attachments/assets/4ae4614f-4cee-483a-8451-3120f50226a2" /> </br>  
+
+
 
