@@ -6,5 +6,6 @@ Having worked in Windows environments, **nmtui** is similar to the **sconfig** u
 Similar to the **ip** utility, the **nmcli** tool consists of options and commands to select the entity I will be working with. </br>  
 Executing **nmcli** without options or commands lists the Network Adapters, settings for each adapter, and DNS configuration information - image below. </br>  
 <img width="768" height="519" alt="Screenshot From 2026-06-28 23-14-07" src="https://github.com/user-attachments/assets/8aa6ffc3-bbce-4f7b-9cf2-6c7dd768dc14" /> </br>  
-Similar to the **ip** utility, using the TAB key with the **nmcli** tool gives more information. For example, as shown in the image below, I pressed the TAB key twice after typing the **nmcli** command to reveal the list of entities and the operations that can be done. </br>  
+Similar to the **ip** utility, using the TAB key with the **nmcli** tool gives more information. For example, as shown in the images below, I pressed the TAB key twice after typing the **nmcli** command to reveal the list of entities and the operations that can be done. </br>  
 <img width="877" height="619" alt="Screenshot From 2026-06-28 23-18-32" src="https://github.com/user-attachments/assets/a753c20f-67d9-483e-a8ac-72e20aa87205" /> </br>  
+<img width="1046" height="474" alt="Screenshot From 2026-06-28 23-32-00" src="https://github.com/user-attachments/assets/aefa59ca-19b7-4edb-851f-7c21b275ec68" /> </br>  
