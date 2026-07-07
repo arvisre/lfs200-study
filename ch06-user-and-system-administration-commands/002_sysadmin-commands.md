@@ -41,7 +41,14 @@ Pressing **TAB** after typing the command **sudo zypper package** gives further 
 Since this command lists hundreds of packages, I am going to check if I can use the command **grep** to check whether I can find the package **gnome-tweaks**.  
 For this, I am going to **pipe (|)** the output of the first command into the **grep** command. </br>  
 The **pipe** operation worked and I can now see that **gnome-tweaks** was installed:  
-<img width="1319" height="168" alt="image" src="https://github.com/user-attachments/assets/8bbc65ef-7bd0-4ec4-a83b-e0533ffc1d01" />  
+<img width="1319" height="168" alt="image" src="https://github.com/user-attachments/assets/8bbc65ef-7bd0-4ec4-a83b-e0533ffc1d01" /> </br>  
+
+The following images display the software upgrade process in Fedora/RHEL-based systems: </br>  
+<img width="879" height="977" alt="Removing and Upgrading Packages" src="https://github.com/user-attachments/assets/53ca9988-6291-40d0-8558-709b845e19fb" /> </br>  
+<img width="1080" height="820" alt="Installing Packages" src="https://github.com/user-attachments/assets/75395794-921a-400e-bed9-778a40a5805e" /> </br>  
+
+
+
 
 
 
