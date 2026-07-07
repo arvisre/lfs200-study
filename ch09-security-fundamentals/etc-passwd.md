@@ -1,5 +1,8 @@
 # "/etc/passwd"  
-The /etc/passwd file contains information about every user account in the system. Every entry in the file has 7 fields that are separated by a colon (:). </br>  
+The /etc/passwd file contains information about every user account in the system. </br>
+This file is owned by the **root** user and can be read by every other user in the system: </br>  
+<img width="561" height="62" alt="image" src="https://github.com/user-attachments/assets/a1e5e35d-51fb-42fc-b1c2-454d2e7745d3" /> </br>  
+Every entry in the file has 7 fields that are separated by a colon (:). </br>  
 <img width="779" height="538" alt="image" src="https://github.com/user-attachments/assets/79f2890a-0476-4bca-b357-85f42abe41f1" /> </br>  
 The first field is the **username**, which we use to login to the system, followed by the **password** field. This field shows **x** to denote that the password for this user is encrypted. Passwords are stored in another file called **shadow**. </br>  
 The third field is the **user id (uid)** and is followed by the **group id (gid)**. Each of these fields have numbers in them. </br>  
