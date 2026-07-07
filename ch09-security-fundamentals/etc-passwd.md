@@ -7,4 +7,5 @@ The fifth field is **GECOS** aka **Comment** field, which can be used to provide
 The sixth field is the **home directory** path field and is followed by the seventh and the last field, which holds the **default shell** path. </br>  
 In the image below, I have sorted the /etc/passwd file based on **uid**. </br>  
 <img width="999" height="298" alt="image" src="https://github.com/user-attachments/assets/1303987b-0b6d-4a7d-92a0-b740cb74ba0f" /> </br>  
+The **uid** for normal user accounts usually starts from **1000** onwards. This value can be found in the **/etc/login.defs** file. </br>  
 
