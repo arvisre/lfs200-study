@@ -23,5 +23,5 @@ I have set the password for the user **tech01** and the changes can be seen in t
 ## Changing password at next logon for user tech01 </br>  
 I have set a temporary password for **tech01** and want the user to change the password at next logon. To achieve this, I can use two commands: 1. sudo passwd -e tech01 (or) 2. sudo chage -d 0 tech01. These commands set the **third field** in the **shadow** file to **0**, which triggers the system to change password at next logon. </br>  
 <img width="920" height="247" alt="Screenshot From 2026-07-08 23-37-00" src="https://github.com/user-attachments/assets/e9af8d54-b74c-4dc4-be18-574480ed350c" /> </br>  
-
-
+Strangely, the "Last Password Change" field for my user account is **blank**. That is because it was created during system installation and the installer must not have updated this field. See image below: </br>  
+<img width="920" height="247" alt="Screenshot From 2026-07-08 23-37-00" src="https://github.com/user-attachments/assets/f8a4abf7-b625-45a9-8743-3941179285a4" /> </br>  
