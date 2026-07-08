@@ -6,3 +6,5 @@ Added to the **Hash** is a random string called **Salt** -generated during the p
 I have created a user account **tech01** to demonstrate the fields in the **shadow** file. </br>  
 <img width="782" height="178" alt="image" src="https://github.com/user-attachments/assets/d87630b3-6ab9-4056-ac79-71c4a15ef880" /> </br>  
 
+Now that I have created a user account **tech01** and I have not set a password yet, I'm displaying the default values for the fields in the **shadow** file: </br>  
+<img width="875" height="300" alt="Screenshot From 2026-07-08 21-01-24" src="https://github.com/user-attachments/assets/d540a0d7-9eb2-40fd-b46c-d44e5b5fa0df" /> </br>  
