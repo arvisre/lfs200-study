@@ -32,3 +32,4 @@ I have changed the password for **tech01** and can be verified by the different 
 I will force expire the **tech01** account using the command **chage**: </br>  
 Executing the command **sudo chage -E 0 tech01** force expires the **tech01** account immediately and sets the **eighth** field (**Account Expiration Date**) in the **shadow** file to **0**: </br>  
 <img width="966" height="224" alt="Screenshot From 2026-07-08 23-56-29" src="https://github.com/user-attachments/assets/6d6d3bb6-4d16-4634-9543-09a52940312f" /> </br>  
+Since I am NOT going to use the **tech01** account for now, it is better to force expire that account. </br>  
