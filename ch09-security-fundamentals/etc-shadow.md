@@ -27,4 +27,8 @@ Strangely, the "Last Password Change" field for my user account is **blank**. Th
 <img width="920" height="247" alt="Screenshot From 2026-07-08 23-37-00" src="https://github.com/user-attachments/assets/f8a4abf7-b625-45a9-8743-3941179285a4" /> </br>  
 Logging in as **tech01**, I am prompted to change the password: </br>  
 <img width="876" height="511" alt="Screenshot From 2026-07-08 23-48-29" src="https://github.com/user-attachments/assets/21cc9005-9391-42b7-9acb-57e29e838c2c" /> </br>  
-
+I have changed the password for **tech01** and can be verified by the different **Hash Value** and **Last Password Change** field: </br>  
+<img width="955" height="206" alt="Screenshot From 2026-07-08 23-52-29" src="https://github.com/user-attachments/assets/3cc5c3ea-c174-4d07-964f-297341882f19" /> </br>  
+I will force expire the **tech01** account using the command **chage**: </br>  
+Executing the command **sudo chage -E 0 tech01** force expires the **tech01** account immediately and sets the **eighth** field (**Account Expiration Date**) in the **shadow** file to **0**: </br>  
+<img width="966" height="224" alt="Screenshot From 2026-07-08 23-56-29" src="https://github.com/user-attachments/assets/6d6d3bb6-4d16-4634-9543-09a52940312f" /> </br>  
