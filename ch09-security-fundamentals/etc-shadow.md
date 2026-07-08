@@ -18,5 +18,10 @@ I have set the password for the user **tech01** and the changes can be seen in t
 6. The sixth field is the "Password Warning Period" - that is the number of days before the password expiry date the user starts getting warning messages during login. In the above image the value is set to the default 7 days. </br>
 7. The seventh field is the "Password Inactivity Period" - that is the number of days AFTER PASSWORD EXPIRATION that the account is still valid before the ACCOUNT IS LOCKED OUT. In the image above this field is empty, meaning this action is NOT enforced. </br>
 8. The eighth field is the "Account Expiration Date" - that is the number of days from 01/January/1970 (**epoch**) that the account must expire. In the example above this field is empty, meaning that this account does NOT expire. </br>  
-9. The last and the final ninth field is reserved for future use. </br>  
+9. The last and the final ninth field is reserved for future use. </br>
+
+## Changing password at next logon for user tech01 </br>  
+I have set a temporary password for **tech01** and want the user to change the password at next logon. To achieve this, I can use two commands: 1. sudo passwd -e tech01 (or) 2. sudo chage -d 0 tech01. These commands set the **third field** in the **shadow** file to **0**, which triggers the system to change password at next logon. </br>  
+<img width="920" height="247" alt="Screenshot From 2026-07-08 23-37-00" src="https://github.com/user-attachments/assets/e9af8d54-b74c-4dc4-be18-574480ed350c" /> </br>  
+
 
