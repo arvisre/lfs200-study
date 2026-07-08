@@ -8,8 +8,15 @@ I have created a user account **tech01** to demonstrate the fields in the **shad
 
 Now that I have created a user account **tech01** and I have not set a password yet, I'm displaying the default values for the fields in the **shadow** file: </br>  
 <img width="875" height="300" alt="Screenshot From 2026-07-08 21-01-24" src="https://github.com/user-attachments/assets/d540a0d7-9eb2-40fd-b46c-d44e5b5fa0df" /> </br>  
-The first field is the username "**tech01**". </br>  
-The second field holds the password. At this moment I have NOT set a password for **tech01** and that is why the password field has a **!** symbol. </br>  
+1. The first field is the username "**tech01**". </br>  
+2. The second field holds the password. At this moment I have NOT set a password for **tech01** and that is why the password field has a **!** symbol. </br>  
 I have set the password for the user **tech01** and the changes can be seen in the **shadow** file: </br>  
 <img width="965" height="260" alt="Screenshot From 2026-07-08 23-10-17" src="https://github.com/user-attachments/assets/87ee6464-ff13-4de4-8101-1856ed8b69c0" /> </br>  
+3. The third field is the "Last Password Change" - that is the number of days since 1st January 1970 (**epoch**). In this case it is 20642 days since 01/01/1970 (**epoch**). </br>  
+4. The fourth field is the "Minimum Password Age" - that is the number of days that must pass for the password to be changed. In this case it is **0**. So there is NO restriction and I can change the password without waiting for a number of days to pass. </br>  
+5. The fifth field is the "Maximum Password Age" - that is the maximum number of days a password can be valid before it must be change. In this example, the value is 99999 days </br>
+6. The sixth field is the "Password Warning Period" - that is the number of days before the password expiry date the user starts getting warning messages during login. In the above image the value is set to the default 7 days. </br>
+7. The seventh field is the "Password Inactivity Period" - that is the number of days AFTER PASSWORD EXPIRATION that the account is still valid before the ACCOUNT IS LOCKED OUT. In the image above this field is empty, meaning this action is NOT enforced. </br>
+8. The eighth field is the "Account Expiration Date" - that is the number of days from 01/January/1970 (**epoch**) that the account must expire. In the example above this field is empty, meaning that this account does NOT expire. </br>  
+9. The last and the final ninth field is reserved for future use. </br>  
 
