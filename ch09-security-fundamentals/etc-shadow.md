@@ -25,3 +25,6 @@ I have set a temporary password for **tech01** and want the user to change the p
 <img width="920" height="247" alt="Screenshot From 2026-07-08 23-37-00" src="https://github.com/user-attachments/assets/e9af8d54-b74c-4dc4-be18-574480ed350c" /> </br>  
 Strangely, the "Last Password Change" field for my user account is **blank**. That is because it was created during system installation and the installer must not have updated this field. See image below: </br>  
 <img width="920" height="247" alt="Screenshot From 2026-07-08 23-37-00" src="https://github.com/user-attachments/assets/f8a4abf7-b625-45a9-8743-3941179285a4" /> </br>  
+Logging in as **tech01**, I am prompted to change the password: </br>  
+<img width="876" height="511" alt="Screenshot From 2026-07-08 23-48-29" src="https://github.com/user-attachments/assets/21cc9005-9391-42b7-9acb-57e29e838c2c" /> </br>  
+
