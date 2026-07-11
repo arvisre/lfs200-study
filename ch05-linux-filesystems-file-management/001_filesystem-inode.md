@@ -29,4 +29,11 @@ The above scenario raises the following two conditions:
 
 The Condition 2 is challenging because a user may see a "disk full" error but the command **df -h** may show plenty of free space. Only when we check the inode usage we get to see the real problem.  <br/>
 
-It is important to note that **_every inode is 256 bytes in size_**
+It is important to note that **_every inode is 256 bytes in size_** </br>  
+
+### Additional note on xfs filesystem </br>  
+The 652-GB /vms partition was using 13GB of space even before I started storing data in it. While I was concerned where this 13GB of space has gone, I later learned that this is purely filesystem metadate overhead, and it is normal for xfs filesystems on large partitions to consume space upfront. This space consumption does NOT grow. </br>  
+<img width="587" height="188" alt="image" src="https://github.com/user-attachments/assets/a6d76346-2046-47b2-831b-709a632a591b" /> </br>  
+From the above image I can confirm that the 13GB space usage has remained the same, even though I have stored 32GB of data on this partition. </br>  
+
+
