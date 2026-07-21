@@ -34,3 +34,10 @@ To **add** EXECUTE permissions to **Other**, the following command can be used: 
 To **set** WRITE and EXECUTE permissions for the **Group Owner**, the following command can be used: **chmod g=rwx file1.txt**. Alternatively, this task can be achieved by **chmod g+wx file1.txt** </br>  
 <img width="552" height="567" alt="Screenshot From 2026-07-21 11-52-23" src="https://github.com/user-attachments/assets/acd75478-c8a2-440d-977e-d8907d7c6975" /> </br>  
 
+## Providing Permissions using Octal method: </br>  
+In the **Octal method** a value is assigned to each permission. Read(r)=4, Write(w)=2, and Execute(x)=1. The values are them added together for each entity User(u), Group(g), and Other(u). Instead of specifying u,g,and o, the sum of permissions is specified for each entity. </br>  
+I am going to use the file file1.txt for demonstration. The file currently has rw-r--r-- for user, group, and other respectively. I am going to add execute permissions for **User Owner** using the command **chmod 744 file1.txt**. Since the User Owner already has Read(4) and Write(2) permissions, I need to add Execute(1) to the existing permissions. These values add up to 7. The **Group Owner** and **Other** have Read(4) permissions and I have to specify them also. </br>  
+<img width="549" height="195" alt="Screenshot From 2026-07-21 12-19-37" src="https://github.com/user-attachments/assets/d821ead0-e6bb-45c8-aa3f-5ac63f96d4c9" /> </br>  
+In the above example, if I do NOT specify the permission values for **Group Owner** and **Other** and issue the command **chmod 7 file1.txt** or **chmod 7-- file1.txt** or **chmod 700 file1.txt**, the results will vastly vary and result in unexpected outcomes. </br>  
+
+
