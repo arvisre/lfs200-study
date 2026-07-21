@@ -38,6 +38,11 @@ To **set** WRITE and EXECUTE permissions for the **Group Owner**, the following 
 In the **Octal method** a value is assigned to each permission. Read(r)=4, Write(w)=2, and Execute(x)=1. The values are them added together for each entity User(u), Group(g), and Other(u). Instead of specifying u,g,and o, the sum of permissions is specified for each entity. </br>  
 I am going to use the file file1.txt for demonstration. The file currently has rw-r--r-- for user, group, and other respectively. I am going to add execute permissions for **User Owner** using the command **chmod 744 file1.txt**. Since the User Owner already has Read(4) and Write(2) permissions, I need to add Execute(1) to the existing permissions. These values add up to 7. The **Group Owner** and **Other** have Read(4) permissions and I have to specify them also. </br>  
 <img width="549" height="195" alt="Screenshot From 2026-07-21 12-19-37" src="https://github.com/user-attachments/assets/d821ead0-e6bb-45c8-aa3f-5ac63f96d4c9" /> </br>  
-In the above example, if I do NOT specify the permission values for **Group Owner** and **Other** and issue the command **chmod 7 file1.txt** or **chmod 7-- file1.txt** or **chmod 700 file1.txt**, the results will vastly vary and result in unexpected outcomes. </br>  
+In the above example, if I do NOT specify the permission values for **Group Owner** and **Other** and issue the command **chmod 7 file1.txt** or **chmod 7-- file1.txt** or **chmod 700 file1.txt**, the results will vastly vary and result in unexpected outcomes. See images below: </br>  
+<img width="549" height="195" alt="Screenshot From 2026-07-21 12-20-43" src="https://github.com/user-attachments/assets/9a76328d-4090-4693-b954-c5d9d2421aa4" /> </br>  
+<img width="540" height="332" alt="Screenshot From 2026-07-21 12-24-28" src="https://github.com/user-attachments/assets/564127bd-d66d-429f-8ee4-2a37cb6214db" /> </br>  
+Hence, **Octal method** requires that one not only be adept in permission values but also mentioning the entire permissions. </br>  
+In the following image, I have added EXECUTE(1) permission to **Other**, removed WRITE(4) permission to **User Owner**, and set "only" WRITE and EXECUTE(2+1) permissions to **Group Owner**. </br>  
+<img width="537" height="217" alt="Screenshot From 2026-07-21 12-32-06" src="https://github.com/user-attachments/assets/f3be1530-2e44-4e70-bcf6-6fa7e9a2b540" /> </br>  
 
 
