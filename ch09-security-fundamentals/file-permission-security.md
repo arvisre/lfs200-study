@@ -52,3 +52,5 @@ Permissions are traversed from **LEFT to RIGHT**.</br>
 1. If the **User Owner**, say "**as**", of a file tries to access a file, then only the **User Owner** permissions are applied. That is, the first match condition. The **User Owner** may have only READ permissions. However, let's assume that "**as**" belongs to the Group "**techsupport**" which has READ and WRITE permissions. This does NOT mean that the system will provide READ and WRITE to User Owner "**as**".  
 2. If a User, say "**tech1**" tries to access a file, and "**tech1**" is **NOT** the **User Owner** of the file, but "**tech1**" belongs to the Group "**techsupport**", then the second condition is match. That is, the **Group** permissions apply to "**tech1**".  
 3. If a User, say "**newbie**" tries to access a file, and "**newbie**" **neither** is the **User Owner** **nor** does he belong to the Group "**techsupport**", then the third condition is a match. That is, the **Other** permissions apply to "**newbie**".
+
+## NOTE: The function of Read, Write, and Execute permissions differs between directories and files. Hence, it is important to take context into consideration. </br>  
