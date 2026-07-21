@@ -4,4 +4,7 @@ The following image shows the information **ls -l** displays for a **directory**
 <img width="1152" height="453" alt="Screenshot From 2026-07-21 08-05-15" src="https://github.com/user-attachments/assets/0914a738-2107-4fea-b1e6-f7d7d5de27d4" /> </br>  
 Some of the file types as shown in the image below: </br>  
 <img width="687" height="401" alt="Screenshot From 2026-07-21 08-21-06" src="https://github.com/user-attachments/assets/6eafc153-eb7c-40c1-9066-03a14bd30ea6" /> </br>
-
+**c** for character device files  
+**d** for directory  
+**l** for links  
+**b** for block device files </br>  
