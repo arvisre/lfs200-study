@@ -14,10 +14,23 @@ Each file (a directory is also considered a type of file) has permissions attach
 Using r,w,x,u,g, and o notations is called the **Symbolic Method**. The alternative to this method is the Octal or Numerical Method in which numbers are assigned to r,w, and x permissions. </br>  
 In the **Octal Method**, Read(r) is given a value of 4, Write(w) a value of 2, and Execute(x) a value of 1. These are applied to User(u), Group(g), and Other(o) placeholders. </br>  
 
+## chmod command: </br>  
+The command **chmod** is used to modify permissions on resources. Elevated privilege (**sudo**) is required for resources that the user does NOT own. </br>  
+
 ## User, Group, Other placeholders: </br>  
 <img width="472" height="130" alt="Screenshot From 2026-07-21 11-09-40" src="https://github.com/user-attachments/assets/6fa36da6-4a0b-4a72-a431-ad35f63bdc47" /> </br>  
 In the image above, the first placeholder - marked in RED, denotes the **Type of File**. A **Regular File** file, like the one in the image, has a blank for this placeholder. A **Directory** would have **d** at this spot. </br>  
 The **Second set** - marked in BLUE - denotes the permissions for the **User Owner** to the resource. This Second set has three placeholders for Read, Write, and Execute. Similarly, the **Third set** - marked in GREEN - denotes the permissions for the **Group Owner** to the resource. The **Fourth set** - marked in YELLOW - denotes the permissions for **Other** to the resource. </br>  
 As per the image below, the User Owner, the Group Ownver, and Other have Read, Write, and Execute permissions for the file file1.txt. This can be inferred from the -rwxrwxrwx permissions for the file.</br>  
 <img width="472" height="130" alt="Screenshot From 2026-07-21 11-17-57" src="https://github.com/user-attachments/assets/44ebf3c7-8c53-4ccd-b58c-79787af8a99a" /> </br>  
+
+## Providing Permissions using Symbolic method: </br>  
+I am going to use the file file1.txt to add and remove permissions. As seen in the image below, the User Owner(u) has Read and Write permissions, the Group Owner(g) and Other(u) have Read permissions. </br>  
+<img width="447" height="120" alt="Screenshot From 2026-07-21 11-38-53" src="https://github.com/user-attachments/assets/a8725f26-61d8-47d6-b226-b80819335734" /> </br>  
+In the **Symbolic method**, the **+** symbol is used to add permissions, the **-** symbol is used to remove persmissions, and the **=** symbol is used to set exact permissions.  
+For example, to **remove** WRITE permission from the **User Owner(u)**, the following command can be used: **chmod u-w file1.txt** </br>  
+Since I own this file I am working on, I have NOT used elevated privilege. </br>  
+To **add** EXECUTE permissions to **Other**, the following command can be used: **chmod o+x file1.txt** </br>  
+To **set** WRITE and EXECUTE permissions for the **Group Owner**, the following command can be used: **chmod g=rwx file1.txt**. Alternatively, this task can be achieved by **chmod g+wx file1.txt** </br>  
+<img width="552" height="567" alt="Screenshot From 2026-07-21 11-52-23" src="https://github.com/user-attachments/assets/acd75478-c8a2-440d-977e-d8907d7c6975" /> </br>  
 
