@@ -45,4 +45,10 @@ Hence, **Octal method** requires that one not only be adept in permission values
 In the following image, I have added EXECUTE(1) permission to **Other**, removed WRITE(4) permission to **User Owner**, and set "only" WRITE and EXECUTE(2+1) permissions to **Group Owner**. </br>  
 <img width="537" height="217" alt="Screenshot From 2026-07-21 12-32-06" src="https://github.com/user-attachments/assets/f3be1530-2e44-4e70-bcf6-6fa7e9a2b540" /> </br>  
 
-
+## How Permissions apply: </br>
+The following image is the screenshot from the Linux Foundation course:</br>  
+<img width="1260" height="178" alt="Screenshot From 2026-07-21 12-33-10" src="https://github.com/user-attachments/assets/59eb54d0-c0d8-4b50-a1ea-d1f9ee168a8d" /> </br>  
+Permissions are traversed from **LEFT to RIGHT**.</br>  
+1. If the **User Owner**, say **as**, of a file tries to access a file, then only the **User Owner** permissions are applied. That is, the first match condition. The **User Owner** may have only READ permissions. However, let's assume that **as** belongs to the Group **techsupport** which has READ and WRITE permissions. This does NOT mean that the system will provide READ and WRITE to User Owner **as**.  
+2. If a User, say **tech1** tries to access a file, and **tech1** is **NOT** the **User Owner** of the file, but **tech1** belongs to the Group **techsupport**, then the second condition is match. That is, the **Group** permissions apply to **tech1**.  
+3. If a User, say **newbie** tries to access a file, and **newbie** **neither** is the **User Owner** **nor** does he belong to the Group **techsupport**, then the third condition is a match. That is, the **Other** permissions apply to **newbie**.
