@@ -8,3 +8,6 @@ Some of the file types as shown in the image below: </br>
 **d** for directory  
 **l** for links  
 **b** for block device files </br>  
+
+## File Permissions: </br>  
+Each file (a directory is also considered a type of file) has permissions attached to it. The permissions are Read(**r**), Write(**w**), and Execute(**x**). These permissions are applied to three entities namely, User (**u**), 
