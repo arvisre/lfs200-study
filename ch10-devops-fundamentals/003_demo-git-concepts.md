@@ -36,6 +36,6 @@ I made a mistake in executing the **git add** command. I did NOT specify the fil
 <img width="916" height="287" alt="Screenshot From 2026-07-26 11-15-23" src="https://github.com/user-attachments/assets/54bf1983-21c6-4b39-9ffd-b2153c41163e" /> </br>  
 
 ## Displaying the log </br>  
-I executed the command **git log** hoping to see all the actions that I have taken since creating my first git file. However, it only showed the only **commit** action and its details - the Author and the timestamp. Hence, I executed the **git commit** command again to commit the changes from the Staging Area to the repository. Now I see details about both the commits, as shown in the image below: </br>  
+I executed the command **git log** hoping to see all the actions that I have taken since creating my first git file. However, it only showed the only **commit** action and its details - the Author, timestamp, and the comment I provided during commit. Hence, I executed the **git commit** command again to commit the changes from the Staging Area to the repository. Now I see details about both the commits, as shown in the image below: </br>  
 <img width="901" height="593" alt="Screenshot From 2026-07-26 11-20-12" src="https://github.com/user-attachments/assets/c570ca97-6420-4431-92e2-5b51a0aba7b5" /> </br>  
 
