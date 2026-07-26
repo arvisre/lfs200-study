@@ -20,3 +20,6 @@ Then, to view the current status of my work, I executed the "**git status**" com
 <img width="899" height="506" alt="Screenshot From 2026-07-26 10-42-43" src="https://github.com/user-attachments/assets/86d2fe4b-2b57-4758-81ad-94ed0913938f" /> </br>  
 As displayed in the image above, because I executed the **git add** command, the snapshot of the file "**my-code**" is now in the "**Staging Area**" and yet to be committed. Hence, at this moment the file "**my-code**" is in "**Staged**" status. </br>  
 As the next step, I am going to execute the command **git commit** to save the file to the local repository. </br>  
+As soon an I executed the **git commit** command, a new window opened with the following message: </br>  
+<img width="899" height="506" alt="Screenshot From 2026-07-26 10-51-48" src="https://github.com/user-attachments/assets/69e535ea-b8cd-4494-8aa3-950190b88a05" />
+
