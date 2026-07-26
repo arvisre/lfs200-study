@@ -30,7 +30,11 @@ Executing the command **git status** shows the current status of the file. </br>
 At the moment, the file **my-code** is in status **Committed**. </br>  
 I am going to open the file **my-code** again to enter some more line of text. But, on this occasion, I am NOT going to run the **git add** command. </br>  
 <img width="908" height="430" alt="Screenshot From 2026-07-26 11-09-12" src="https://github.com/user-attachments/assets/6f26a8dc-03d1-4fd7-ad27-9348ff708729" /> </br>  
-As shown in the image above, I have added some lines of text to the file, but I have not executed the **git add** command to **stage** the file. Instead, I executed the **git status** command and I note that the file is now in **Modified** status. This means that this file is now ONLY part of my working directory and a snapshot has not been captured in the **Staging Area**. </br>  
+As shown in the image above, I have added some lines of text to the file, but I have not executed the **git add** command to **stage** the file. Instead, I executed the **git status** command and I note that the file is now in **Modified** status. This means that this file is now **ONLY** part of my working directory and a snapshot has not been captured in the **Staging Area**. The suggestions shown in the terminal are the further actions that I can do with the file - whether I want to stage the file or discard the changes. </br>  
+By executing the **git add** command, I move the changes to the **Staging Area**. </br>  
+I made a mistake in executing the **git add** command. I did NOT specify the file name. This was un-intentional, and git is suggesting further actions based on the error on my part. I then execute the right command **git add my-code** and the results are displayed:  </br>  
+<img width="916" height="287" alt="Screenshot From 2026-07-26 11-15-23" src="https://github.com/user-attachments/assets/54bf1983-21c6-4b39-9ffd-b2153c41163e" /> </br>  
+
 
 
 
