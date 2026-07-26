@@ -18,3 +18,5 @@ I ran the "**git status**" command even before I create any files in my working 
 Using the "nano" text editor, I input some lines in "**my-code**" file and then executed the "**git add**" command for the first time. </br>  
 Then, to view the current status of my work, I executed the "**git status**" command to check my work. </br>  
 <img width="899" height="506" alt="Screenshot From 2026-07-26 10-42-43" src="https://github.com/user-attachments/assets/86d2fe4b-2b57-4758-81ad-94ed0913938f" /> </br>  
+As displayed in the image above, because I executed the **git add** command, the snapshot of the file "**my-code**" is now in the "**Staging Area**" and yet to be committed. Hence, at this moment the file "**my-code**" is in "**Staged**" status. </br>  
+As the next step, I am going to execute the command **git commit** to save the file to the local repository. </br>  
