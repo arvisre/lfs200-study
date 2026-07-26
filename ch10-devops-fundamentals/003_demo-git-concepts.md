@@ -10,5 +10,11 @@ The following basic Global Configuration settings have been applied: </br>
 I have created a working directory named "test-app" under my home directory and will "**initialise**" this directory with git. </br>  
 <img width="1447" height="885" alt="Screenshot From 2026-07-26 10-28-20" src="https://github.com/user-attachments/assets/11589bb1-63fb-4068-b300-ea6a6fa2703a" />
 
-
-
+## Basic Git Commands </br>  
+In this demo, I will use the basic Git commands - "*git status*", "*git add*", "*git commit*", and "*git log*". </br>  
+I will be creating a simple text file called "**my-code**" in the working directory, execute git commands, and perform the staging and commit functions. </br>  
+I ran the "**git status**" command even before I create any files in my working directory. Then create a file using the "nano" text editor. </br>  
+<img width="696" height="192" alt="Screenshot From 2026-07-26 10-38-49" src="https://github.com/user-attachments/assets/83f2cd11-48c0-4164-9a35-7212c4262ecf" /> </br>  
+Using the "nano" text editor, I input some lines in "**my-code**" file and then executed the "**git add**" command for the first time. </br>  
+Then, to view the current status of my work, I executed the "**git status**" command to check my work. </br>  
+<img width="899" height="506" alt="Screenshot From 2026-07-26 10-42-43" src="https://github.com/user-attachments/assets/86d2fe4b-2b57-4758-81ad-94ed0913938f" /> </br>  
