@@ -20,6 +20,10 @@ Then, to view the current status of my work, I executed the "**git status**" com
 <img width="899" height="506" alt="Screenshot From 2026-07-26 10-42-43" src="https://github.com/user-attachments/assets/86d2fe4b-2b57-4758-81ad-94ed0913938f" /> </br>  
 As displayed in the image above, because I executed the **git add** command, the snapshot of the file "**my-code**" is now in the "**Staging Area**" and yet to be committed. Hence, at this moment the file "**my-code**" is in "**Staged**" status. </br>  
 As the next step, I am going to execute the command **git commit** to save the file to the local repository. </br>  
-As soon an I executed the **git commit** command, a new window opened with the following message: </br>  
-<img width="899" height="506" alt="Screenshot From 2026-07-26 10-51-48" src="https://github.com/user-attachments/assets/69e535ea-b8cd-4494-8aa3-950190b88a05" />
-
+As soon an I executed the **git commit** command, a new window opened with the following self-explanatory message: </br>  
+<img width="899" height="506" alt="Screenshot From 2026-07-26 10-51-48" src="https://github.com/user-attachments/assets/69e535ea-b8cd-4494-8aa3-950190b88a05" /> </br>  
+This is a **text editor** window and it is opened with the **VI**/**VIM** text editor. Since I knew the very basic commands in **VIM**, I pressed the alphabet **i** to enter the **INSERT MODE**. One can enter text when the editor is in **INSERT MODE**. </br>  
+I entered the text "first commit to the file my-code" (for lack of a better comment). Then pressed the "**ESC**" key to go back the **COMMAND MODE** in the VIM editor. </br>  
+Then to save the changes (the comment I just entered), I pressed the **:** colon symbol followed by the alphabets **wq** for "write changes and quit file". This action **committed the changes** </br>  
+Executing the command **git status** shows the current status of the file. </br>  
+<img width="786" height="416" alt="Screenshot From 2026-07-26 10-53-37" src="https://github.com/user-attachments/assets/bc98c3c2-5dc5-4f73-be70-9e67ca15532a" /> </br>  
