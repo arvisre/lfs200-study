@@ -6,5 +6,7 @@ I am going to demonstrate some basic Git Concepts with commands. Git is availabl
 The following basic Global Configuration settings have been applied:
 <img width="1027" height="129" alt="Screenshot From 2026-07-26 10-14-58" src="https://github.com/user-attachments/assets/9adc2bf3-044c-4517-93b3-c148ab4ec036" /> </br>  
 
+## Creating a Working Directory </br>  
+I have created a working directory named "test-app" under my home directory and will
 
 
