@@ -27,3 +27,10 @@ I entered the text "first commit to the file my-code" (for lack of a better comm
 Then to save the changes (the comment I just entered), I pressed the **:** colon symbol followed by the alphabets **wq** for "write changes and quit file". This action **committed the changes** </br>  
 Executing the command **git status** shows the current status of the file. </br>  
 <img width="786" height="416" alt="Screenshot From 2026-07-26 10-53-37" src="https://github.com/user-attachments/assets/bc98c3c2-5dc5-4f73-be70-9e67ca15532a" /> </br>  
+At the moment, the file **my-code** is in status **Committed**. </br>  
+I am going to open the file **my-code** again to enter some more line of text. But, on this occasion, I am NOT going to run the **git add** command. </br>  
+<img width="908" height="430" alt="Screenshot From 2026-07-26 11-09-12" src="https://github.com/user-attachments/assets/6f26a8dc-03d1-4fd7-ad27-9348ff708729" /> </br>  
+As shown in the image above, I have added some lines of text to the file, but I have not executed the **git add** command to **stage** the file. Instead, I executed the **git status** command and I note that the file is now in **Modified** status. This means that this file is now ONLY part of my working directory and a snapshot has not been captured in the **Staging Area**. </br>  
+
+
+
