@@ -10,6 +10,6 @@ DevOps, an evolution of Agile methodology, is a set of practices, combining soft
 6. Continuous Deployment - practice of automating code release directly into production without a manual intervention.
 7. Continuous Monitoring - practice of proactively monitoring performance, usage, and errors and alerting about the health of the application/production environment. </br>
 
-##NOTE: NOT THE BEST DEFINITIONS - got better understanding from Claude 28.07.2026.
+## NOTE: NOT THE BEST DEFINITIONS - got better understanding from Claude 28.07.2026.
 
 
